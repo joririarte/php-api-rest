@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJEMPLO DE API REST CON PHP</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Tabla de Usuarios</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Email</th>
+                    <th>Nombre</th>
+                    <th>Ciudad</th>
+                    <th>Teléfono</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody id="userTableBody">
+                <!-- Las filas se agregarán dinámicamente desde la API -->
+                <!-- Fila para añadir un nuevo registro -->
+                <tr>
+                    <td><input type="text" class="form-control" id="newId" disabled></td>
+                    <td><input type="text" class="form-control" id="newEmail"></td>
+                    <td><input type="text" class="form-control" id="newName"></td>
+                    <td><input type="text" class="form-control" id="newCity"></td>
+                    <td><input type="text" class="form-control" id="newPhone"></td>
+                    <td>
+                        <button class="btn btn-success btn-sm" onclick="addNewRecord()"><i class="fas fa-plus"></i></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
