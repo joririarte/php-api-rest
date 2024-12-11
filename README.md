@@ -35,3 +35,7 @@ En este repositorio encontraras un ejemplo de API realizada con php, que realiza
 ## Instalación
 * Instalar XAMPP
 * Copiar los archivos del repositorio en la carpeta htdocs
+* Iniciar Apache y MySQL
+* Abrir phpMyAdmin
+* Crear la base de datos 'apirest'
+* Importar el script 'listado_clientes.sql' en la base de datos
