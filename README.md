@@ -2,6 +2,8 @@
 ## Introduccion
 En este repositorio encontraras un ejemplo de API realizada con php, que realiza consultas a una base de datos MySQL. Adicionalmente para ver el funcionamiento se dispone de una página web sencilla realizada con HTML, Bootstrap y JavaScript que implementa los endpoints de la API.
 
+![IMAGEN DE API REST EN FUNCIONAMIENTO](api-rest-running.png)
+
 ## Estructura de la API
 ``` 
 \api-rest
